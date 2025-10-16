@@ -24,5 +24,8 @@ monthly_salary = (gross_salary * 0.7) / 12 # assuming 30% deductions for taxes a
 if M > monthly_salary * 0.3:
     print("The monthly payment exceeds 30% of your salary. Loan may not be approved.")
 
+elif M > monthly_salary * 0.5:
+    print("The monthly payment exceeds 50% of your salary. Loan will not be approved.") 
+
 else:
     print("The monthly payment is within 30% of your salary. Loan may be approved.")
